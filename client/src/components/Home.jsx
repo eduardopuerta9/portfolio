@@ -222,6 +222,42 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <div className="project">
+        <div className="project-image-container">
+          <img
+            className="project-image"
+            alt="Project Link"
+            title="Check out my project"
+            src="https://user-images.githubusercontent.com/122240360/215114718-7693b643-039b-4960-ade1-858d08450458.png"
+          />
+        </div>
+        <div className="project-details">
+          <div className="project-icons">
+            <img
+              className="project-icon"
+              alt="HTML"
+              title="HTML"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            />
+            <img
+              className="project-icon"
+              alt="CSS"
+              title="CSS"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            />
+            <img
+              className="project-icon"
+              alt="javascript"
+              title="javascript"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            />
+          </div>
+          <p className="project-desc">
+            A rendition of the classic board game Connect Four with an out of
+            this world twist.
+          </p>
+        </div>
+      </div>
     </section>
   )
 }
