@@ -124,11 +124,53 @@ const Home = () => {
               title="node"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
             />
-            {/* Add more project icons here */}
           </div>
           <p className="project-desc">
             A website where Premier League fans can interact by sharing their
             opinions about their teams and stadium experiences.
+          </p>
+        </div>
+      </div>
+      <div className="project">
+        <div className="project-image-container">
+          <img
+            className="project-image"
+            alt="Project Link"
+            title="Check out my project"
+            src="https://camo.githubusercontent.com/7984a721682093bc2730eedeeb42a1d4d97e98ae80127d8dc68e977fee750be8/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f313037353531393135383039373238313039372f313037383339383235343035333630353338362f53637265656e73686f745f66726f6d5f323032332d30322d32335f31322d30382d33312e706e673f77696474683d31333032266865696768743d363630"
+          />
+        </div>
+        <div className="project-details">
+          <div className="project-icons">
+            <img
+              className="project-icon"
+              alt="MongoDB"
+              title="MongoDB"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+            />
+            <img
+              className="project-icon"
+              alt="express"
+              title="express"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+            />
+            <img
+              className="project-icon"
+              alt="react"
+              title="react"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            />
+            <img
+              className="project-icon"
+              alt="node"
+              title="node"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            />
+          </div>
+          <p className="project-desc">
+            Have you been to Six Flags Recently? Use this website and leave a
+            review on a ride you went on or even comment on already reviewed
+            rides!
           </p>
         </div>
       </div>
