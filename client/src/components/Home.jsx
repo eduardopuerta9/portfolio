@@ -88,7 +88,7 @@ const Home = () => {
           />
         </a>
       </div>
-      <h2 className="project-title">Projects I have Built</h2>
+      <h2 className="project-title">Projects </h2>
       <div className="project">
         <div className="project-image-container">
           <img
