@@ -126,8 +126,10 @@ const Home = () => {
             />
           </div>
           <p className="project-desc">
-            A website where Premier League fans can interact by sharing their
-            opinions about their teams and stadium experiences.
+            Have you watched a Premier League team play or recently visited a
+            stadium? Access this website where Premier League fans can interact
+            by sharing their opinions about their teams and stadium experiences.
+            Built using MongoDB, Express, React, and Node.
           </p>
         </div>
       </div>
@@ -170,7 +172,53 @@ const Home = () => {
           <p className="project-desc">
             Have you been to Six Flags Recently? Use this website and leave a
             review on a ride you went on or even comment on already reviewed
-            rides!
+            rides! Built using MongoDB, Express, React, and Node.
+          </p>
+        </div>
+      </div>
+      <div className="project">
+        <div className="project-image-container">
+          <img
+            className="project-image"
+            alt="Project Link"
+            title="Check out my project"
+            src="https://user-images.githubusercontent.com/122240360/231035347-60a6b3fe-58e5-4034-921a-c2737e90f6bd.png"
+          />
+        </div>
+        <div className="project-details">
+          <div className="project-icons">
+            <img
+              className="project-icon"
+              alt="PostgreSQL"
+              title="PostgreSQL"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+            />
+            <img
+              className="project-icon"
+              alt="express"
+              title="express"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+            />
+            <img
+              className="project-icon"
+              alt="react"
+              title="react"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            />
+            <img
+              className="project-icon"
+              alt="node"
+              title="node"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            />
+          </div>
+          <p className="project-desc">
+            Are you an avid cyclist? If so use this social media website where
+            bikers share their rides on the platform. Distance and time is
+            recorded using the Google Maps API. Users are able to create their
+            own posts and comment on others as well. Comments and posts are
+            editable and deletable by the own user. Built using PostgreSQL,
+            Express, React, and Node.
           </p>
         </div>
       </div>
