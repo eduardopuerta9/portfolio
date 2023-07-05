@@ -1,11 +1,13 @@
-.App {
-  text-align: center;
+body {
+  background-color: #2a4a96;
+  color: #fff;
 }
-/* Home.css */
+
 .startSection {
-  text-align: center;
-  padding: 50px;
-  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
 }
 
 .profile {
@@ -13,92 +15,84 @@
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 
 .greeting {
-  font-size: 28px;
-  color: #333;
-  margin-top: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .intro {
   font-size: 18px;
-  color: #555;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.iconsContainer {
+.icons-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 30px;
-}
-
-.icons {
-  width: 50px;
-  height: 50px;
-  margin: 10px;
-}
-
-.socialLinks {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
+  margin-top: 20px;
 }
-
-.linkedin,
-.resume {
+.icon {
   width: 30px;
   height: 30px;
-  margin: 0 10px;
+  margin-right: 10px;
+}
+.links-container {
+  margin-top: 40px;
+}
+.linkedin, .resume {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .project-title {
   font-size: 24px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
 .project {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .project-image {
-  width: 400px;
+  width: 300px;
   height: 200px;
   object-fit: cover;
   margin-right: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-.project-details {
-  display: flex;
-  flex-direction: column;
+  border-radius: 8px;
 }
 
 .project-icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   margin-bottom: 10px;
 }
 
 .project-icon {
-  width: 60px;
-  height: 60px;
-  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .project-desc {
-  font-size: 20px;
-  color: #777;
-  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
 }
+
+/* Add any additional styles or modifications as needed */
+
+
+/* Add any additional styles or modifications as needed */
+
+
+
 
 
