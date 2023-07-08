@@ -91,7 +91,6 @@ const Home = () => {
           />
         </a>
       </div>
-
       <div className="project">
         <div className="project-image-container">
           <img
