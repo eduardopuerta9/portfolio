@@ -3,54 +3,52 @@ body {
 background: rgb(212,222,222);
 background: linear-gradient(0deg, rgba(212,222,222,1) 0%, rgba(124,122,120,1) 100%);
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
+  
 }
 
 
 .profile {
   width: 300px;
   height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.greeting {
-  font-size: 24px;
-  margin-bottom: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+  
 }
-
+.intro-container{
+  max-width: 300px;
+  margin: 0;
+  position: fixed;
+  margin-top: 450px;
+}
 .intro {
-  font-size: 24px;
+  font-size: 14px;
   margin-bottom: 10px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
+  
+  
+  
 }
-
-.icons-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
+.icons-container{
+  max-width: 300px;
+  margin: 0;
+  position: fixed;
+  margin-top: 300px;
 }
 .icon {
-  width: 60px;
-  height: 60px;
-  margin-right: 10px;
+  width: 25px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+  display: inline-block;
+  text-align: left;
 }
 .links-container {
-  margin-top: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  
+  max-width: 300px;
+  margin: 0;
+  margin-top: 650px;
+  position: fixed;
 }
 .linkedin, .resume {
   width: 30px;
@@ -73,13 +71,15 @@ background: linear-gradient(0deg, rgba(212,222,222,1) 0%, rgba(124,122,120,1) 10
   border-radius: 20px;
   background-color: #514e4e;
   height: 800px;
-  width: 750px;
-  display: inline-block;
+  width: 650px;
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 90px;
   outline: 7px solid gold;
+  margin:20px;
+  bottom: 0;
+  top: 0;
+  left: 500px;
+  display: inline-flex;
+  
   
 }
 .project:before{
@@ -153,16 +153,12 @@ background: linear-gradient(0deg, rgba(212,222,222,1) 0%, rgba(124,122,120,1) 10
   font-size: 25px;
 }
 .form{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  left: 220px;
+  display: inline-flex;
+  
 }
-.icon{
-  outline: 3px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 20px;
-}
+
 /* Add any additional styles or modifications as needed */
 
 

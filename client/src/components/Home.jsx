@@ -8,14 +8,6 @@ const Home = () => {
         className="profile"
         src="https://media.licdn.com/dms/image/D4E03AQFgPxhRXJqV7g/profile-displayphoto-shrink_800_800/0/1681248097796?e=1694044800&v=beta&t=LeEWfd99eLiBlJFbXKkq1as4HO9e0ud6ydQbGTo7ctI"
       />
-      <h3 className="greeting">Welcome!</h3>
-      <h4 className="intro">
-        My name is Eduardo Puerta, and I am a passionate Full Stack Software
-        Engineer dedicated to creating innovative solutions that resonate with
-        users and make a positive impact. With a deep love for technology and a
-        drive for continuous learning, I constantly seek new challenges to push
-        the boundaries of what's possible.
-      </h4>
       <div className="icons-container">
         <img
           className="icon"
@@ -70,6 +62,17 @@ const Home = () => {
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg"
         />
       </div>
+      <div class="intro-container">
+        <h4 class="intro">
+          Welcome! <br></br>
+          <br></br> My name is Eduardo Puerta, and I am a passionate Full Stack
+          Software Engineer dedicated to creating innovative solutions that
+          resonate with users and make a positive impact. With a deep love for
+          technology and a drive for continuous learning, I constantly seek new
+          challenges to push the boundaries of what's possible.
+        </h4>
+      </div>
+
       <div className="links-container">
         <a href="https://www.linkedin.com/in/eduardo-puerta-0a7707265/">
           <img
@@ -88,7 +91,7 @@ const Home = () => {
           />
         </a>
       </div>
-      <h2 className="project-title">Projects </h2>
+
       <div className="project">
         <div className="project-image-container">
           <img
