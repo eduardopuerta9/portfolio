@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <section className="startSection">
+    <section>
       <img
         className="profile"
         src="https://media.licdn.com/dms/image/D4E03AQFgPxhRXJqV7g/profile-displayphoto-shrink_800_800/0/1681248097796?e=1694044800&v=beta&t=LeEWfd99eLiBlJFbXKkq1as4HO9e0ud6ydQbGTo7ctI"
@@ -131,6 +131,9 @@ const Home = () => {
             by sharing their opinions about their teams and stadium experiences.
             Built using MongoDB, Express, React, and Node.
           </p>
+          <Link to={'https://connect-four-space.surge.sh/'}>
+            <button className="visit">Visit Website</button>
+          </Link>
         </div>
       </div>
       <div className="project">
@@ -174,6 +177,9 @@ const Home = () => {
             review on a ride you went on or even comment on already reviewed
             rides! Built using MongoDB, Express, React, and Node.
           </p>
+          <Link to={'https://'}>
+            <button className="visit">Visit Website</button>
+          </Link>
         </div>
       </div>
       <div className="project">
@@ -220,6 +226,9 @@ const Home = () => {
             editable and deletable by the own user. Built using PostgreSQL,
             Express, React, and Node.
           </p>
+          <Link to={'https://'}>
+            <button className="visit">Visit Website</button>
+          </Link>
         </div>
       </div>
       <div className="project">
@@ -256,8 +265,23 @@ const Home = () => {
             A rendition of the classic board game Connect Four with an out of
             this world twist.
           </p>
+          <Link to={'https://connect-four-space.surge.sh/'}>
+            <button className="visit">Play Game</button>
+          </Link>
         </div>
       </div>
+
+      <iframe
+        className="form"
+        src="https://docs.google.com/forms/d/e/1FAIpQLScDNF6IKR73lyREIbrvbX0V-lXMla3-sln5FIvpuagqGIJJrA/viewform?embedded=true"
+        width="100%"
+        height="900"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Loading…
+      </iframe>
     </section>
   )
 }
