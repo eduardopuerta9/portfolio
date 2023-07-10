@@ -1,9 +1,8 @@
 body {
-  background: linear-gradient(to right, #848181 0%, #694C5C 50%, #090D47 100%);
-  min-height: 100vh;
+  background: linear-gradient(to right, #139ee4  0%, #2990cb 50%, #8fc7e3 100%);
   color: white;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  overflow-x: hidden;
+   /* Resize the background image to cover the entire container */
 }
 
 
@@ -22,7 +21,7 @@ body {
   margin-top: 400px;
 }
 .intro {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 10px;
   text-align: left;
   
@@ -36,7 +35,7 @@ body {
   margin-top: 250px;
 }
 .icon {
-  width: 25px;
+  width: 35px;
   height: 35px;
   margin-left: auto;
   margin-right: auto;
@@ -47,7 +46,7 @@ body {
 .links-container {
   max-width: 300px;
   margin: 0;
-  margin-top: 650px;
+  margin-top: 750px;
   position: fixed;
 }
 .linkedin, .resume {
@@ -68,16 +67,16 @@ body {
 
 .project {
   position: relative;
-  
-  background-color: #514e4e;
+  background:url(https://i.pinimg.com/originals/7b/34/d3/7b34d33a578812832573513ae9909cba.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 800px;
-  width: 650px;
+  width: 590px;
   overflow: hidden;
-  outline: 7px solid white;
   margin:20px;
   bottom: 0;
   top: 0;
-  left: 500px;
+  left: 400px;
   display: inline-flex;
   
   
@@ -104,7 +103,7 @@ body {
   font-size: 12em;
   font-weight: 800;
   font-style: italic;
-  color: rgba(212, 12, 12, 0.649);
+  color: rgba(12, 132, 212, 0.649);
 }
 .project .project-image-container{
   position: absolute;
@@ -123,7 +122,7 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
   width: 600px;
-  outline: 5px solid wheat;
+  outline: 5px solid rgb(53, 180, 243);
 }
 .project .project-details{
   position: absolute;
@@ -133,10 +132,10 @@ body {
   text-align: center;
   transition: 1s;
   z-index: 10;
-  color: white;
+  color: black;
 }
 .project:hover .project-details{
-  color: white;
+  color: black;
   height: 400px;
   
 }
@@ -155,15 +154,93 @@ body {
 }
 .form{
   position: relative;
-  left: 220px;
+  left: 120px;
   display: inline-flex;
   
 }
-@media only screen and (max-width: 414px) and (max-height: 896px) {
-  .project {
-    height: 500px;
-  }
+.visit{
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
 
+
+@media only screen and (max-width: 414px) and (max-height: 896px) {
+  body{
+    overflow-x: hidden;
+    color: white;
+  }
+  .profile {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    
+  }
+  .intro-container{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+  }
+  .intro {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+    color: white;
+  }
+  .icons-container{
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+  }
+  .icon {
+    width: 35px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+  }
+  .links-container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+  }
+  
+  .project {
+  height: 300px;
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  margin:20px;
+  bottom: 0;
+  top: 900px;
+  left: 0px;
+  display:inline-block;
+  }
+  
+  .icon {
+    width: 28px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+  }
+  
   .project:before {
     clip-path: circle(80px at 80% 20%);
   }
@@ -196,10 +273,19 @@ body {
     left: 120px;
   }
 }
-/* Add any additional styles or modifications as needed */
+.visit{
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
 
-
-/* Add any additional styles or modifications as needed */
 
 
 
