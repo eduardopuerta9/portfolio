@@ -78,7 +78,6 @@ body {
   top: 0;
   left: 400px;
   display: inline-flex;
- 
   
   
 }
@@ -283,8 +282,8 @@ body {
 
   .project-icons {
     padding: 8px 15px;
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 40px;
   }
 
   .form {
