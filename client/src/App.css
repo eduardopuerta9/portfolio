@@ -220,17 +220,28 @@ body {
   }
   
   .project {
-  height: 300px;
+  height: 600px;
   position: relative;
   width: 300px;
   overflow: hidden;
   margin:20px;
   bottom: 0;
-  top: 900px;
-  left: 0px;
+  top: 0px;
+  left: 25px ;
   display:inline-block;
   }
-  
+  .project:hover:before{
+    clip-path: circle(300px at 80% -20%);
+  }
+  .project:hover .project-details{
+    color: black;
+    height: 400px;
+    
+  }
+  .project:hover .project-image-container{
+    top: 0%;
+    transform: translateY(0%);
+  }
   .icon {
     width: 28px;
     height: 30px;
@@ -256,11 +267,12 @@ body {
   }
 
   .project .project-image-container .project-image {
-    width: 250px;
+    width: 300px;
   }
 
   .project .project-details {
     height: 100px;
+    font-size: 20px;
   }
 
   .project-icons {
@@ -270,13 +282,14 @@ body {
   }
 
   .form {
-    left: 120px;
+    left: 0px;
+    top: 50px;
   }
 }
 .visit{
   background-color: #007bff;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   border: none;
   border-radius: 5px;
