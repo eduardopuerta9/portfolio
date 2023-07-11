@@ -281,9 +281,14 @@ body {
   }
 
   .project-icons {
-    padding: 8px 15px;
-    height: 60px;
-    width: 40px;
+    position: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 27px;
+  transition: 0.5s;
+  height: 5px;
+  width: 40px;
+  display: inline-flex;
   }
 
   .form {
