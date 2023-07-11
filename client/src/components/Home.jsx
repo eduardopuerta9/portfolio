@@ -223,13 +223,12 @@ const Home = () => {
             />
           </div>
           <p className="project-desc">
-            Introducing a dynamic social media platform exclusively for
-            passionate cyclists! Connect with fellow riders, share your
-            thrilling journeys, and explore new routes. Powered by Google Maps
-            API, this platform accurately records distance and time for every
-            ride. Experience seamless posting, commenting, and editing
-            functionalities, all backed by a robust technology stack featuring
-            PostgreSQL, Express, React, and Node.
+            Connect with fellow riders, share your thrilling journeys, and
+            explore new routes. Powered by Google Maps API, this platform
+            accurately records distance and time for every ride. Experience
+            seamless posting, commenting, and editing functionalities, all
+            backed by a robust technology stack featuring PostgreSQL, Express,
+            React, and Node.
           </p>
           <Link to={'https://'}>
             <button className="visit">Visit Website</button>

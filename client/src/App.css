@@ -189,6 +189,16 @@ body {
     margin: 0 auto;
     
   }
+  .project-icons {
+    position: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 27px;
+  transition: 0.5s;
+  height: 70px;
+  width: 40px;
+  display: inline-flex;
+  }
   .intro-container{
     max-width: 300px;
     margin: 0 auto;
@@ -280,17 +290,7 @@ body {
     font-size: 20px;
   }
 
-  .project-icons {
-    position: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 27px;
-  transition: 0.5s;
-  height: 5px;
-  width: 40px;
-  display: inline-flex;
-  }
-
+  
   .form {
     left: 0px;
     top: 50px;
