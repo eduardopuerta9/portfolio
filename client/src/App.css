@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #139ee4  0%, #2990cb 50%, #8fc7e3 100%);
+  background: linear-gradient(to right, #7a0404  0%, #800707 50%, #a20606 100%);
   color: white;
   overflow-x: hidden;
    /* Resize the background image to cover the entire container */
@@ -67,7 +67,7 @@ body {
 
 .project {
   position: relative;
-  background:url(https://i.pinimg.com/originals/7b/34/d3/7b34d33a578812832573513ae9909cba.png);
+  background:url(https://i.pinimg.com/1200x/b5/2d/d7/b52dd7b56d889cc64699b07d2e03b859.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -78,6 +78,7 @@ body {
   top: 0;
   left: 400px;
   display: inline-flex;
+ 
   
   
 }
@@ -109,7 +110,7 @@ body {
   position: absolute;
   z-index: 10000;
   width: 100%;
-  height: 400px;
+  height: 290px;
   transition: 0.5s;
 }
 .project:hover .project-image-container{
@@ -122,21 +123,21 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
   width: 600px;
-  outline: 5px solid rgb(53, 180, 243);
+  
 }
 .project .project-details{
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 200px;
+  height: 100px;
   text-align: center;
   transition: 1s;
   z-index: 10;
-  color: black;
+  color: white;
 }
 .project:hover .project-details{
-  color: black;
-  height: 400px;
+  color: white;
+  height: 450px;
   
 }
 .project-icons{
@@ -145,12 +146,16 @@ body {
   align-items: center;
   padding: 8px 27px;
   transition: 0.5s;
-  height: 90px;
+  height: 5px;
   width: 90px;
   display: inline-flex;
 }
 .project-details{
   font-size: 25px;
+  width: 30px;
+}
+.project-desc{
+  text-align: center;
 }
 .form{
   position: relative;
@@ -172,10 +177,10 @@ body {
 }
 
 
-@media only screen and (max-width: 414px) and (max-height: 896px) {
+@media only screen and (max-width: 428px) and (max-height: 926px) {
   body{
-    overflow-x: hidden;
     color: white;
+    overflow-x: hidden;
   }
   .profile {
     width: 250px;
@@ -188,20 +193,20 @@ body {
   .intro-container{
     max-width: 300px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 10px;
     position: relative;
   }
   .intro {
     font-size: 20px;
     text-align: left;
-    margin-top: 40px;
-    color: white;
+    margin-top: 10px;
+    color: white
   }
   .icons-container{
     max-width: 300px;
     margin: 0 auto;
     position: relative;
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .icon {
     width: 35px;
@@ -215,27 +220,28 @@ body {
   .links-container {
     max-width: 300px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 40px;
     position: relative;
   }
   
   .project {
   height: 600px;
   position: relative;
-  width: 300px;
+  width: 330px;
   overflow: hidden;
   margin:20px;
   bottom: 0;
   top: 0px;
-  left: 25px ;
+  left: 0px ;
   display:inline-block;
+  
   }
   .project:hover:before{
     clip-path: circle(300px at 80% -20%);
   }
   .project:hover .project-details{
-    color: black;
-    height: 400px;
+    color: white;
+    height: 420px;
     
   }
   .project:hover .project-image-container{
@@ -263,11 +269,11 @@ body {
   }
 
   .project .project-image-container {
-    height: 250px;
+    height: 190px;
   }
 
   .project .project-image-container .project-image {
-    width: 300px;
+    width: 380px;
   }
 
   .project .project-details {
@@ -277,7 +283,7 @@ body {
 
   .project-icons {
     padding: 8px 15px;
-    height: 60px;
+    height: 80px;
     width: 60px;
   }
 
@@ -287,7 +293,7 @@ body {
   }
 }
 .visit{
-  background-color: #007bff;
+  background-color: rgb(237, 181, 40);
   color: #fff;
   font-size: 1.2rem;
   font-weight: 600;
