@@ -128,10 +128,11 @@ const Home = () => {
             />
           </div>
           <p className="project-desc">
-            Have you watched a Premier League team play or recently visited a
-            stadium? Access this website where Premier League fans can interact
-            by sharing their opinions about their teams and stadium experiences.
-            Built using MongoDB, Express, React, and Node.
+            A dedicated online platform where Premier League fans can
+            passionately discuss their favorite teams and share thrilling
+            stadium experiences. Powered by MongoDB, Express, React, and Node,
+            this cutting-edge website offers seamless interactions and a
+            user-friendly interface.
           </p>
           <Link to={'https://connect-four-space.surge.sh/'}>
             <button className="visit">Visit Website</button>
@@ -175,11 +176,12 @@ const Home = () => {
             />
           </div>
           <p className="project-desc">
-            Have you been to Six Flags Recently? Use this website and leave a
-            review on a ride you went on or even comment on already reviewed
-            rides! Built using MongoDB, Express, React, and Node.
+            Experience the ultimate Six Flags fan website! Share ride reviews,
+            engage with the community, and embrace the thrill. Built with
+            MongoDB, Express, React, and Node, this platform is your destination
+            for all things Six Flags. Join the excitement today!
           </p>
-          <Link to={'https://'}>
+          <Link to={'https://njsixflags.herokuapp.com/'}>
             <button className="visit">Visit Website</button>
           </Link>
         </div>
@@ -221,12 +223,13 @@ const Home = () => {
             />
           </div>
           <p className="project-desc">
-            Are you an avid cyclist? If so use this social media website where
-            bikers share their rides on the platform. Distance and time is
-            recorded using the Google Maps API. Users are able to create their
-            own posts and comment on others as well. Comments and posts are
-            editable and deletable by the own user. Built using PostgreSQL,
-            Express, React, and Node.
+            Introducing a dynamic social media platform exclusively for
+            passionate cyclists! Connect with fellow riders, share your
+            thrilling journeys, and explore new routes. Powered by Google Maps
+            API, this platform accurately records distance and time for every
+            ride. Experience seamless posting, commenting, and editing
+            functionalities, all backed by a robust technology stack featuring
+            PostgreSQL, Express, React, and Node.
           </p>
           <Link to={'https://'}>
             <button className="visit">Visit Website</button>
