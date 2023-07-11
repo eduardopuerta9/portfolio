@@ -134,7 +134,7 @@ const Home = () => {
             this cutting-edge website offers seamless interactions and a
             user-friendly interface.
           </p>
-          <Link to={'https://connect-four-space.surge.sh/'}>
+          <Link to={'https://github.com/eduardopuerta9/Premier-League'}>
             <button className="visit">Visit Website</button>
           </Link>
         </div>
@@ -230,7 +230,7 @@ const Home = () => {
             backed by a robust technology stack featuring PostgreSQL, Express,
             React, and Node.
           </p>
-          <Link to={'https://'}>
+          <Link to={'https://github.com/eduardopuerta9/JustRides'}>
             <button className="visit">Visit Website</button>
           </Link>
         </div>
