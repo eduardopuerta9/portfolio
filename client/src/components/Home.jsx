@@ -134,7 +134,7 @@ const Home = () => {
             this cutting-edge website offers seamless interactions and a
             user-friendly interface.
           </p>
-          <Link to={'https://github.com/eduardopuerta9/Premier-League'}>
+          <Link to={'https://prem-r57b.onrender.com/'}>
             <button className="visit">Visit Website</button>
           </Link>
         </div>
