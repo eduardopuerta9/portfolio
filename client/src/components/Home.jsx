@@ -82,7 +82,7 @@ const Home = () => {
             src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
           />
         </a>
-        <a href="https://docs.google.com/document/d/11kKd-C8DMDFQWO0HlrXSznGVKfojKLDNyEu4wpIbwUo/edit?pli=1">
+        <a href="https://docs.google.com/document/d/1OZSmZMs6-hcU1CsgYRIY50itohlezE97sVIpjMoxKy0/edit?usp=sharing">
           <img
             className="resume"
             alt="resume link"
