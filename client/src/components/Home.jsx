@@ -6,7 +6,7 @@ const Home = () => {
     <section>
       <img
         className="profile"
-        src="https://mail.google.com/mail/u/0?ui=2&ik=5ad254772e&attid=0.1.1&permmsgid=msg-f:1773801990537819656&th=189dcf832be33608&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8cZvuf8s9_QPSaEQAHY7vUyaHOwc1AiObsGeN68pfuT335MtkINoq0HOmQnsDsq04hX-RAObLqZuI2SQKaMK1Gq3izFFtYm3_qm-JtRhZIZYyLDOiwfvufaQI&disp=emb"
+        src="https://avatars.githubusercontent.com/u/122240360?s=400&u=38c17396ef6ec6bba8ccc835d4d3788790e01add&v=4"
       />
       <div className="icons-container">
         <img
