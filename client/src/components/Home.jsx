@@ -65,11 +65,11 @@ const Home = () => {
       <div class="intro-container">
         <h4 class="intro">
           Welcome! <br></br>
-          <br></br> My name is Eduardo Puerta, and I am a passionate Full Stack
-          Software Engineer dedicated to creating innovative solutions that
-          resonate with users and make a positive impact. With a deep love for
-          technology and a drive for continuous learning, I constantly seek new
-          challenges to push the boundaries of what's possible.
+          <br></br> My name is Eduardo Puerta, and I am a passionate Software
+          Engineer dedicated to creating innovative solutions that resonate with
+          users and make a positive impact. With a deep love for technology and
+          a drive for continuous learning, I constantly seek new challenges to
+          push the boundaries of what's possible.
         </h4>
       </div>
 
