@@ -25,8 +25,268 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Eduardo Puerta's Portfolio</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="mediaqueries.css">  
   </head>
   <body>
+    <nav id="desktop-nav">
+      <div class="logo">Eduardo Puerta</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Eduardo Puerta</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="https://media.licdn.com/dms/image/D4E03AQGQghpL-ANfHg/profile-displayphoto-shrink_200_200/0/1691614160007?e=1712188800&v=beta&t=sSLyk7LoOBXs57DxYO1haXEyxKKtjgwEXiQEWl9-5e4" alt="Eduardo profile picture" class="profile-img"/>
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello I'm</p>
+        <h1 class="title">Eduardo Puerta</h1>
+        <p class="section_text_p2">Software Engineer</p>
+
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('https://docs.google.com/document/d/1OZSmZMs6-hcU1CsgYRIY50itohlezE97sVIpjMoxKy0/edit')">Resume</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Information</button>
+        </div>
+        <div id="socials-container">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+          alt="LinkedIn Profile"
+          class="icon"
+          onclick="location.href='https://www.linkedin.com/in/eduardo-puerta-0a7707265/'"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+          alt="GitHub Profile"
+          class="icon"
+          onclick="location.href='https://github.com/eduardopuerta9'"/>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img src="https://avatars.githubusercontent.com/u/122240360?s=400&u=38c17396ef6ec6bba8ccc835d4d3788790e01add&v=4"
+          alt="Profile Picture"
+          class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="https://wnax.com/files/2015/11/blue-ribbon-clip-art-approved.jpg" alt="Education icon" class="icon"/>
+              <h3>Education</h3>
+              <p>Certification in Software Engineering<br />Bachelors of Science in Health Sciences</p>
+
+            </div>
+          </div>
+          <div class="text-container">
+            <p>I am a passionate Software
+              Engineer dedicated to creating innovative solutions that resonate with
+              users and make a positive impact. With a deep love for technology and
+              a drive for continuous learning, I constantly seek new challenges to
+              push the boundaries of what's possible.</p>
+          </div>
+        </div>
+      </div>
+      <img src="https://images.freeimages.com/clg/images/45/453251/downward-black-arrow-clip-art_f.jpg?fmt=webp&w=500"
+      alt="Arrrow Icon"
+      class="icon arrow"
+      onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>React</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Vue</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Git</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Flask</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="Experience icon" class="icon">
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="https://images.freeimages.com/clg/images/45/453251/downward-black-arrow-clip-art_f.jpg?fmt=webp&w=500"
+      alt="Arrrow Icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <p class="section_text_p1">*Projects May Take A Few Minutes To Load Since They Are On Free Servers*</p>
+      <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="https://user-images.githubusercontent.com/122240360/220215856-e7cc909b-7566-41f0-9a90-97de7abab2da.png" alt="Project 1" class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">Premier League</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://prem-r57b.onrender.com/'">Website</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="https://camo.githubusercontent.com/2146a578d0c29daccd0d9af770e5dcad12f7851ae6f4cf88d15dd223e943537c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f313037353531393135383039373238313039372f313037383339383235343035333630353338362f53637265656e73686f745f66726f6d5f323032332d30322d32335f31322d30382d33312e706e673f77696474683d31333032266865696768743d363630" alt="Project 2" class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">Six Flags</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://njsixflags.herokuapp.com/'">Website</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="https://user-images.githubusercontent.com/122240360/215114718-7693b643-039b-4960-ade1-858d08450458.png" alt="Project 3" class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">Out Of This World Tic Tac Toe</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://connect-four-space.surge.sh/'">Website</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      <img src="https://images.freeimages.com/clg/images/45/453251/downward-black-arrow-clip-art_f.jpg?fmt=webp&w=500"
+      alt="Arrrow Icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"/>
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="https://i.etsystatic.com/16458179/r/il/122dd0/2744903306/il_570xN.2744903306_s4xk.jpg" alt="Email icon" class="icon contact-icon email-icon"/>
+          <p><a href="mailto:puerta.eduardo10@gmail.com">puerta.eduardo10@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn icon" class="icon contact-icon"/>
+          <p><a href="https://www.linkedin.com/in/eduardo-puerta-0a7707265/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Eduardo Puerta. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
